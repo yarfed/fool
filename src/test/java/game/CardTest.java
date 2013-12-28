@@ -12,7 +12,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class TestCard {
+public class CardTest {
     private final Card card = new Card(SuitOfCard.DIAMONDS, RankOfCard.JACK);
     private static final Card[] fullSetOfCards = new Card[36];
 
