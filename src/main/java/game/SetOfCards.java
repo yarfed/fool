@@ -57,7 +57,7 @@ class SetOfCards {
     public void reprint() {
         int size = setOfCards.size();
         System.out.println("Колода(" + size +")");
-        if (size > 0 && !trump.equals(null)) {
+        if (size > 0 && !(trump==null)) {
             System.out.println("Козырь:" + trump.toString());
         }
     }
